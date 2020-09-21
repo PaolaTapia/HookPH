@@ -19,15 +19,11 @@ export const Padre = () => {
         [setValor],
     )
 
-
-
     return (
         <div>
             <h1>Padre</h1>
             <p> Total: { valor } </p>
-
             <hr />
-
             {
                 numeros.map( n => (
                     <Hijo 

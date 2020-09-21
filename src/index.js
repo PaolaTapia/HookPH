@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import { CallbackHook } from './Componentes/06-memos/CallbackHook';
-import { Padre } from './Componentes/07-tarea-memo/Padre';
+//import { Padre } from './Componentes/07-tarea-memo/Padre';
+import { TodoApp } from './Componentes/08-useReducer/TodoApp';
 //import { FormWithCustomHook } from './Componentes/01-useState/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './Componentes/01-useState/03-examples/MultipleCustomHooks';
 //import { FocusScreen } from './Componentes/04-useRef/FocusScreen';
@@ -14,9 +15,8 @@ import { Padre } from './Componentes/07-tarea-memo/Padre';
 //import HookApp from './HookApp';
 
 
-ReactDOM.render(
-  
-    <Padre />,  
+ReactDOM.render(  
+    <TodoApp />,  
     document.getElementById('root')
 );
 
