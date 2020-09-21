@@ -11,7 +11,6 @@ export const toDoReducer = (state = [], action)=>{
                     ? {...toDo, done: !toDo.done}
                     : toDo
                )
-
                /*return state.map((toDo)=>{
                     if(toDo.id === action.payload){
                          return{

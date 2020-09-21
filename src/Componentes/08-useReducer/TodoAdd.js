@@ -17,8 +17,7 @@ const handleSubmit = (e) => {
           done: false
      }
      handleAddToDo(newToDo); 
-     reset(); 
-     
+     reset();     
 }
      
   return (

@@ -5,7 +5,6 @@ import { ToDoList } from "./ToDoList";
 import { toDoReducer } from "./toDoReducer";
 
 export const TodoApp = () => { 
-
      const init= () => {
           return JSON.parse(localStorage.getItem('toDos')) || []; 
 
